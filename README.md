@@ -3,7 +3,9 @@ The code proposes various novel loss functions to train the DL models and constr
 
 ## Requirements:
 Tenforflow == 2.4.0
+
 Keras == 2.4.0
+
 #other supporting libraries as mentioned in the code
 
 # Aim and objective of the study:
