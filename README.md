@@ -12,10 +12,10 @@ Class imbalance is common in medical image classification tasks, where the numbe
 
 The figure below shows the segmentation module proposed in this study. An EfficientNet-B0-based U-Net model is used to generate lung masks. The predicted lung masks for the pediatric CXR collection published by Kermany et al. is overlaid on the original CXRs, the ling boundaries are delineated and cropped. The cropped lungs are further used for classification studies.
 
-![alt text](striking_image.png)
+![alt text](segmentation_module.png)
 
 
-The datasets used in various stages of the proposed study and their distribution are shown below.
+The classification module proposed in this study is shown below.
 
 
-![alt text](datasets_distribution.png)
+![alt text](classification_module.png)
