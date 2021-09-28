@@ -108,7 +108,7 @@ BACKBONE = 'efficientnetb0'
 preprocess_input = sm.get_preprocessing(BACKBONE)
 
 # define model
-model_eff0 = sm.Unet(BACKBONE, input_shape=(256,256,3), 
+model_eff0 = sm.Unet(BACKBONE, input_shape=(512,512,3), 
                          encoder_weights='imagenet', 
                          classes=3, activation='sigmoid')
 model_eff0.summary()
