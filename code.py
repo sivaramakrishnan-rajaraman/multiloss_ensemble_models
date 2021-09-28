@@ -831,7 +831,7 @@ def smoothfocal(y_true, y_pred):
 
 #%% Load data
 
-img_width, img_height = 256,256
+img_width, img_height = 512,512
 train_data_dir = "data/train"
 test_data_dir = "data/test"
 epochs = 64 
