@@ -98,7 +98,7 @@ def focal_tversky_loss(y_true,y_pred):
 #%%
 #using qubvel segmentation models from https://github.com/qubvel/segmentation_models
 import segmentation_models as sm
-# Segmentation models using keras framework
+# Segmentation models using tf.keras framework
 print(sm.__version__)
 
 #%%
