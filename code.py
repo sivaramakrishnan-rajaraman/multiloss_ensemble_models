@@ -96,7 +96,6 @@ def focal_tversky_loss(y_true,y_pred):
     return K.pow((1-pt_1), gamma)
 
 #%%
-# C:\Users\rajaramans2\AppData\Local\Continuum\anaconda3\envs\tf_2.4\Lib\site-packages\efficientnet
 #using qubvel segmentation models from https://github.com/qubvel/segmentation_models
 import segmentation_models as sm
 # Segmentation models using keras framework
