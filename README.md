@@ -1,4 +1,4 @@
-# multiloss_ensemble_learning_imbalanced_classification
+# Multiloss_ensemble_learning_imbalanced_classification
 The code proposes various novel loss functions to train the DL models and construct their ensembles to improve performance in a class-imbalanced multiclass classification task using chest radiographs
 
 ## Requirements:
@@ -21,3 +21,8 @@ The classification module proposed in this study is shown below.
 
 
 ![alt text](classification_module.png)
+
+We further performed localization studies using Grad_CAM to localize the disease ROIs learned by the indiviudal models that are trained with various loss functions and the model-level ensembles. The models precisely learned the ROIs as shown below.
+
+![alt text](classification_module.png)
+
