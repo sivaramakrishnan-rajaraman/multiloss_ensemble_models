@@ -24,5 +24,5 @@ The classification module proposed in this study is shown below.
 
 We further performed localization studies using Grad_CAM to localize the disease ROIs learned by the indiviudal models that are trained with various loss functions and the model-level ensembles. The models precisely learned the ROIs as shown below.
 
-![alt text](classification_module.png)
+![alt text](grad_cam.png)
 
