@@ -1,7 +1,7 @@
 # Multiloss_ensemble_learning
 The code proposes various novel loss functions to train the DL models and construct their ensembles to improve performance in a multiclass classification task using chest radiographs
 
-#### Kindly cite our study if you find these codes and results useful for your research:
+#### Kindly cite our study when using these codes for your research:
 
 ### Rajaraman S, Zamzmi G, Antani SK (2021) Novel loss functions for ensemble-based medical image classification. PLoS ONE 16(12): e0261307. https://doi.org/10.1371/journal.pone.0261307
 
