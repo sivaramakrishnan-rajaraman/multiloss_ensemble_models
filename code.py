@@ -419,7 +419,7 @@ generate_bounding_box("C:/Users/xx/codes/test/",
 The cropped images are further used for the classification studies
 Part II: Classification experiments:
 The trained U-Net model is truncated a the block_5c_add layer
-and added with teh classification layers to classify teh CXRs as belonging to
+and added with the classification layers to classify the CXRs as belonging to
 the normal, bacterial pneumonia, or viral pneumonia category.
 '''
 #%%
@@ -552,7 +552,7 @@ The following are the loss functions used in this multi-class classification tas
 a) Categorical cross-entropy (CCE) loss; (b) CCE with entropy-based regularization; 
 (c) Kullback-Leibler (KL) divergence loss; (d) Categorical focal loss; (e) Categorical Hinge loss; 
 (f) Label-smoothed CCE loss; (g) Label-smoothed categorical focal loss; and 
-(h) Calibrated CCE loss [37]. 
+(h) Calibrated CCE loss. 
 
 Newly proposed loss functions:
 (a) Calibrated KL divergence loss; (b) Calibrated categorical focal loss; 
@@ -904,7 +904,7 @@ print(class_weights)
 
 #%%
 '''
-Load the EfficientNet-Bo-based U-Net model and truncate at the block_5c_add layer and 
+Load the EfficientNet-B0-based U-Net model and truncate at the block_5c_add layer and 
 add classification layers
 '''
 
@@ -1239,9 +1239,9 @@ plt.show()
 '''
 We train the models individually with the aforementioned loss functions.
 Then we choose the top-3 and top-5 performing models
-to construct ensembles andt the prediction and model levels. 
+to construct ensembles at the prediction and model levels. 
 At the prediction level, we perform majority voting, simple averaging,
-weighted averaging, and stacking ensembles. 
+weighted averaging, and stacking. 
 
 '''
 
@@ -1553,7 +1553,7 @@ using the codes given above.
 '''
 #%%
 '''
-Now we are going to construct a stacking ensemble using hte predictions of the top-5 models.
+Now we are going to construct a stacking ensemble using the predictions of the top-5 models.
 Repeat the process for the top-3 models
 
 Integrated Stacking Model: It may be desirable to use a neural network as a meta-learner.
@@ -1966,7 +1966,7 @@ This gave superior performance in our classification task'''
 '''
 ROI localization using Grad-CAM:
     We lcoalized the disease ROI learned by the top-5 performing models
-    and the merged models. The following code snipped can be used for visualization
+    and the merged models. The following code snippet can be used for visualization
     using any of the trained models in this classification task
 '''
 
