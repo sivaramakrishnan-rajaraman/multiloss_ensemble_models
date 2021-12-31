@@ -3,7 +3,7 @@ The code proposes various novel loss functions to train the DL models and constr
 
 #### Kindly cite our study if you find these codes and results useful for your research:
 
-### Rajaraman, S.; Zamzmi, G.; Antani, S.K. Multi-loss ensemble deep learning for chest X-ray classification. ArXiv preprint. 	arXiv:2109.14433 [eess.IV]
+### Rajaraman S, Zamzmi G, Antani SK (2021) Novel loss functions for ensemble-based medical image classification. PLoS ONE 16(12): e0261307. https://doi.org/10.1371/journal.pone.0261307
 
 ## Requirements:
 Tenforflow == 2.4.0
